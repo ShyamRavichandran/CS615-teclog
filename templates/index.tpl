@@ -20,8 +20,7 @@
             <span><a href="#" onclick="document.getElementById('updateForm').submit();">Save</a></span>&nbsp;|&nbsp;<span><a href="index.php?action=delete">Delete</a></span>
             <span class=“centre”>Shyam Ravichandran</span>
 	<span class="right">
-           <table border="0" cellspacing="0" cellpadding="0"><tr><td align="center"><script type="text/javascript" src="http://www.worldtimeserver.com/clocks/embed.js"></script><script type="text/javascript" language="JavaScript">objIE=new Object;objIE.wtsclock="wtsclock001.swf";objIE.color="FF9900";objIE.wtsid="IE";objIE.width=200;objIE.height=200;objIE.wmode="transparent";showClock(objIE);</script></td></tr><tr><td align="center"><h2>Dublin</h2></td></tr></table>
-           </span>
+           <script src="http://www.clocklink.com/embed.js"></script> <script type="text/javascript" language="JavaScript">obj=new Object;obj.clockfile="5012-black.swf";obj.TimeZone="Ireland_Dublin"; obj.width=91;obj.height=30;obj.wmode="transparent";showClock(obj);</script></span>
         </div>
         <div>
             {foreach from=$notes item=note}
