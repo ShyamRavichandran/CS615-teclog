@@ -18,8 +18,10 @@
     <div id="notepad">
         <div id="notepad-header" class="header">
             <span><a href="#" onclick="document.getElementById('updateForm').submit();">Save</a></span>&nbsp;|&nbsp;<span><a href="index.php?action=delete">Delete</a></span>
-            <span>Shyam Ravichandran</span>
-	<span class="right"><a href=“clock.php” target=“_blank”>Clock</a></span>
+            <span class=“centre”>Shyam Ravichandran</span>
+	<span class="right">
+           <table border="0" cellspacing="0" cellpadding="0"><tr><td align="center"><script type="text/javascript" src="http://www.worldtimeserver.com/clocks/embed.js"></script><script type="text/javascript" language="JavaScript">objIE=new Object;objIE.wtsclock="wtsclock001.swf";objIE.color="FF9900";objIE.wtsid="IE";objIE.width=200;objIE.height=200;objIE.wmode="transparent";showClock(objIE);</script></td></tr><tr><td align="center"><h2>Dublin</h2></td></tr></table>
+           </span>
         </div>
         <div>
             {foreach from=$notes item=note}
