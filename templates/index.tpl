@@ -4,15 +4,14 @@
 
 <div id="container">
 
-<div id= “note”>
-<div id=“make note” class=“header’>
-<span><script src="http://www.clocklink.com/embed.js"></script> <script type="text/javascript" language="JavaScript">obj=new Object;obj.clockfile="5012-black.swf";obj.TimeZone="Ireland_Dublin"; obj.width=91;obj.height=30;obj.wmode="transparent";showClock(obj);</script>
-</span>
+<div id= “notes-list”>
+<div id=“note” class=“header’>
+
 </div>
 
     <div id="notes-list">
         <div id="notes-list-header" class="header">
-            <span class="left">Shyam’s post</span>
+            <span class="left">My post</span>
             <span class="right"><a href="index.php?action=new"><img src="images/CreateNote.png" alt="Create new note."></a></span>
         </div>
         {foreach from=$notes item=note}
@@ -26,8 +25,10 @@
     <div id="notepad">
 
 <div id=“notepad”>
-<div id=“node” class=“header”>
+<div id=“note” class=“header”>
 <span class=“left”>Welcome to my Engineering Blog</span>
+<span class=“right”><span><script src="http://www.clocklink.com/embed.js"></script> <script type="text/javascript" language="JavaScript">obj=new Object;obj.clockfile="5012-black.swf";obj.TimeZone="Ireland_Dublin"; obj.width=91;obj.height=30;obj.wmode="transparent";showClock(obj);</script>
+</span></span>
 </div>
         <div id="notepad-header" class="header">
             <span><a href="#" onclick="document.getElementById('updateForm').submit();">Save</a></span>&nbsp;|&nbsp;<span><a href="index.php?action=delete">Delete</a></span>
