@@ -42,7 +42,6 @@ if(isset($_REQUEST['action'])) {
 }
 
 $template = new Smarty();
-
 if(isset($activeNoteId))
     $template->assign("ACTIVE_NOTE_ID", $activeNoteId);
 $template->assign("notes", $db->getNotes());
