@@ -4,7 +4,7 @@
     
     <div id="notes-list">
         <div id="notes-list-header" class="header">
-            <span class="left">Shyam post</span>
+            <span class="left">Post by shyam</span>
             <span class="right"><a href="index.php?action=new"><img src="images/CreateNote.png" alt="Create new note."></a></span>
         </div>
         {foreach from=$notes item=note}
@@ -19,7 +19,7 @@
         <div id="notepad-header" class="header">
             <span><a href="#" onclick="document.getElementById('updateForm').submit();">Save</a></span>&nbsp;|&nbsp;<span><a href="index.php?action=delete">Delete</a></span>
          
-        <span class=“center”>Welcome to My Blog</span>   
+        <span class=“center”>.                  Welcome to My Blog</span>   
 	<span class="right">
            <script src="http://www.clocklink.com/embed.js"></script> <script type="text/javascript" language="JavaScript">obj=new Object;obj.clockfile="5012-black.swf";obj.TimeZone="Ireland_Dublin"; obj.width=91;obj.height=30;obj.wmode="transparent";showClock(obj);</script></span>
         </div>
