@@ -19,7 +19,7 @@
         <div id="notepad-header" class="header">
             <span><a href="#" onclick="document.getElementById('updateForm').submit();">Save</a></span>&nbsp;|&nbsp;<span><a href="index.php?action=delete">Delete</a></span>
             <span>Shyam Ravichandran</span>
-	<span class="right"><a href=“clock.html” target=“_blank”>Clock</a></span>
+	<span class="right"><a href=“clock.php” target=“_blank”>Clock</a></span>
         </div>
         <div>
             {foreach from=$notes item=note}
